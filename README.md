@@ -1,4 +1,5 @@
-Recursive simple cypher decrypter. I am responsible for all files in this project except the following:
+Recursive simple cipher decryption. 
+I am responsible for all files in this project. 
 provided.h
 theirMain.cpp
 sanityChecker.cpp
