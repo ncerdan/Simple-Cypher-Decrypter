@@ -1,0 +1,16 @@
+﻿  myTester.cpp
+c:\users\ncerd\cs at ucla\cs32\project4\project4\mytester.cpp(158): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\mytester.cpp(164): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\mytester.cpp(170): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\mytester.cpp(177): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\mytester.cpp(184): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\mytester.cpp(190): warning C4018: '<': signed/unsigned mismatch
+  DecrypterWUsedWordList.cpp
+c:\users\ncerd\cs at ucla\cs32\project4\project4\decrypterwusedwordlist.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\decrypterwusedwordlist.cpp(61): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\decrypterwusedwordlist.cpp(98): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\decrypterwusedwordlist.cpp(103): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\decrypterwusedwordlist.cpp(126): warning C4018: '<': signed/unsigned mismatch
+c:\users\ncerd\cs at ucla\cs32\project4\project4\decrypterwusedwordlist.cpp(137): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Project4.vcxproj -> C:\Users\ncerd\CS at Ucla\CS32\Project4\Debug\Project4.exe
