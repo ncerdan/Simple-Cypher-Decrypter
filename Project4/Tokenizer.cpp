@@ -7,42 +7,54 @@ public:
 	std::vector<std::string> tokenize(const std::string& s) const;
 private:
 	std::string m_separators;
-	bool isSeparator(const char c) const;	//returns true if c is a separator
+	//returns true if c is a separator
+	bool isSeparator(const char c) const;	
 };
 
-TokenizerImpl::TokenizerImpl(std::string separators)	//FINSIHED. has correct O(P), P = number of separators
+//O(P), P = number of separators
+TokenizerImpl::TokenizerImpl(std::string separators)
 	: m_separators(separators)
 {}
 
-std::vector<std::string> TokenizerImpl::tokenize(const std::string& s) const	//FINISED. has correct O(S*P), S = s length, P = number seperators
+//O(S*P), S = s length, P = number seperators
+std::vector<std::string> TokenizerImpl::tokenize(const std::string& s) const
 {
 	std::vector<std::string> toReturn;
 	std::string temp = "";
-	for (int i = 0; i < s.size(); i++)	//for each character in s
+	//for each character in s
+	for (int i = 0; i < s.size(); i++)	
 	{
-		if (!isSeparator(s[i]))			//if it is not a separator, add it to temp
+		//if it is not a separator, add it to temp
+		if (!isSeparator(s[i]))			
 			temp += s[i];
-		else if (temp != "")			//if it is a seperator AND temp isn't empty, add temp to vector and restart building word
-		{								//
-			toReturn.push_back(temp);	//
-			temp = "";					//
-		}								//
+		//if it is a seperator AND temp isn't empty, add temp to vector and restart building word
+		else if (temp != "")			
+		{								
+			toReturn.push_back(temp);	
+			temp = "";					
+		}								
 	}
 	
-	if (temp != "")					//if it ended without a punctuation and temp is a word, add it to the vector
-		toReturn.push_back(temp);	//
+	//if it ended without a punctuation and temp is a word, add it to the vector
+	if (temp != "")					
+		toReturn.push_back(temp);
 
-	return toReturn;	//return the vector of only words a no separators
+	//return the vector of only words a no separators
+	return toReturn;	
 }
 
-bool TokenizerImpl::isSeparator(const char c) const		//FINISHED. has O(P), P = number of seperators (not assigned, my own helper)
+//O(P), P = number of seperators (not assigned, my own helper)
+bool TokenizerImpl::isSeparator(const char c) const
 {
-	for (int i = 0; i < m_separators.size(); i++)	//for each char in vector of separators
+	//for each char in vector of separators
+	for (int i = 0; i < m_separators.size(); i++)	
 	{
-		if (m_separators[i] == c)	//if its c return true
+		//if its c return true
+		if (m_separators[i] == c)	
 			return true;
 	}
-	return false;	//if none are c, return false
+	//if none are c, return false
+	return false;	
 }
 
 ///////////////////////////////////////////////////////////////////////////////
