@@ -1,20 +1,8 @@
-﻿  Decrypter.cpp
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\decrypter.cpp(62): warning C4018: '<': signed/unsigned mismatch
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\decrypter.cpp(75): warning C4018: '<': signed/unsigned mismatch
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\decrypter.cpp(125): warning C4018: '<': signed/unsigned mismatch
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\decrypter.cpp(131): warning C4018: '<': signed/unsigned mismatch
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\decrypter.cpp(158): warning C4018: '<': signed/unsigned mismatch
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\decrypter.cpp(172): warning C4018: '<': signed/unsigned mismatch
-  Tokenizer.cpp
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\tokenizer.cpp(25): warning C4018: '<': signed/unsigned mismatch
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\tokenizer.cpp(50): warning C4018: '<': signed/unsigned mismatch
-  Translator.cpp
-  WordList.cpp
-  myTester.cpp
-c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\mytester.cpp(191): warning C4018: '<': signed/unsigned mismatch
+﻿  myTester.cpp
+c:\users\ncerd\visual studio workspace\school\cs32 - c++\project4\project4\mytester.cpp(196): warning C4018: '<': signed/unsigned mismatch
   Generating code
-  40 of 584 functions ( 6.8%) were compiled, the rest were copied from previous compilation.
+  1 of 584 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    12 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   Project4.vcxproj -> C:\Users\ncerd\Visual Studio Workspace\School\CS32 - C++\Project4\Release\Project4.exe

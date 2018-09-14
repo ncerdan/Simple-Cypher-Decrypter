@@ -145,9 +145,9 @@ int main()														//EACH ON OF THESE ARE SAVED ON G32
 // Decrypter Tests ///////////////							FINAL WORKS ON BOTH COMPILERS
 	Decrypter d;
 	if (!d.load("wordlist.txt"))
-		std::cout << "dictionary failed to load" << std::endl;
+		std::cout << "Dictionary failed to load" << std::endl;
 	else
-		std::cout << "dictionary loaded properly!" << std::endl;
+		std::cout << "Dictionary loaded properly!" << std::endl;
 	std::cout << std::endl;
 
 	std::vector<std::string> v;
@@ -158,20 +158,20 @@ int main()														//EACH ON OF THESE ARE SAVED ON G32
 		for (unsigned int i = 0; i < v.size(); i++)
 			std::cout << v[i] << std::endl;
 		std::cout << std::endl;
-
+		
 		//2
 		v = d.crack("Vxgvab sovi jh pjhk cevc andi ngh iobnxdcjnh cn bdttook jb pnio jpfnicvhc cevh vha nceoi nho cejhy.");
 		for (unsigned int i = 0; i < v.size(); i++)
 			std::cout << v[i] << std::endl;
 		std::cout << std::endl;
-//
+	/*
 		//3
 		v = d.crack("Trcy oyc koon oz rweelycbb vmobcb, wyogrcn oecyb; hjg ozgcy tc moox bo moya wg grc vmobck koon grwg tc ko yog bcc grc oyc trlvr rwb hccy oecyck zon jb. -Rcmcy Xcmmcn");
 		for (unsigned int i = 0; i < v.size(); i++)
 			std::cout << v[i] << std::endl;
 		std::cout << std::endl;
-	//
-	//
+	/*
+	
 		//4
 		v = d.crack("Jxwpjq qwrla glcu pcx qcn xkvv dw uclw ekarbbckpjwe dq jzw jzkpta jzrj qcn ekep'j ec jzrp dq jzw cpwa qcn eke ec. -Urls Jxrkp");
 		for (unsigned int i = 0; i < v.size(); i++)
@@ -179,6 +179,8 @@ int main()														//EACH ON OF THESE ARE SAVED ON G32
 		std::cout << std::endl;
 	//
 	//
+
+/*
 		//5
 		v = d.crack("Axevfvu lvnelvp bxqp mvpprjv rgl bvoop Grnxvgkvuj dqupb jvbp buvrbvl be lqggvu.");
 		for (unsigned int i = 0; i < v.size(); i++)
@@ -187,16 +189,22 @@ int main()														//EACH ON OF THESE ARE SAVED ON G32
 */
 
 		//6
-		v = d.crack("Xjzwq gjz cuvq xz huri arwqvudiy fuk ufjrqoq svquxiy. -Lzjk Nqkkqcy");
-		for (int i = 0; i < v.size(); i++)
-			std::cout << v[i] << std::endl;
-		std::cout << std::endl;
-//*/
+	std::cout << "Decrypting the following CipherText:" << std::endl;
+	std::cout << "Xjzwq gjz cuvq xz huri arwqvudiy fuk ufjrqoq svquxiy. - Lzjk Nqkkqcy" << std::endl;
+	std::cout << "\n";
+	v = d.crack("Xjzwq gjz cuvq xz huri arwqvudiy fuk ufjrqoq svquxiy. -Lzjk Nqkkqcy");
+	for (int i = 0; i < v.size(); i++)
+		std::cout << v[i] << std::endl;
+	std::cout << std::endl;
+
+	std::cout << "\n";
+	std::cout << "Done." << std::endl;
+
 /*
 	v = d.crack("asdf qwer zxcv aals pekw");
 	for (int i = 0; i < v.size(); i++)
 		std::cout << v[i] << std::endl;
 	std::cout << std::endl;
-	*/
+*/
 }
 
